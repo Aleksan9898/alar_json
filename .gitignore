@@ -1,0 +1,49 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile
+compile_commands.json
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.user.*
+
+# Testing / coverage
+Testing/
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Doxygen generated documentation
+docs/html/
+
+# Debugger
+.gdb_history
+peda-session-*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp
+
+# Fuzzing generated artifacts
+*.profraw
+*.profdata
+fuzz_artifacts/
+fuzz-output/
+timeout-*
