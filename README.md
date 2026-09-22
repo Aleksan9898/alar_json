@@ -1,7 +1,5 @@
 # alar_json
 
-[Русская версия](README_RU.md)
-
 `alar_json` is a JSON library for **C++20** focused on type-safe JSON value representation, explicit ownership, structured error handling, parser robustness, and testability.
 
 The project is currently under active development.
